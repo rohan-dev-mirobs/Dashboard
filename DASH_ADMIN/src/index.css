@@ -1,0 +1,146 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Noto+Sans:ital,wdth,wght@0,91.8,100..900;1,91.8,100..900&family=Nunito:wght@200..1000&family=Signika:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wdth,wght@0,91.8,100..900;1,91.8,100..900&family=Nunito:wght@200..1000&family=Signika:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wdth,wght@0,91.8,100..900;1,91.8,100..900&family=Nunito:wght@200..1000&family=Play:wght@400;700&family=Signika:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Fjalla+One&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wdth,wght@0,91.8,100..900;1,91.8,100..900&family=Nunito:wght@200..1000&family=Play:wght@400;700&family=Signika:wght@300..700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  /* font-family: "Dosis", sans-serif; */
+  /* font-family: 'Source Sans Pro', sans-serif; */
+  /* font-family: 'Roboto', sans-serif; */
+  /* font-family: "Signika", sans-serif; */
+  /* font-family: "Libre Franklin", sans-serif; */
+  /* font-family: "Fjalla One", sans-serif; */
+  font-family: "Nunito", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+  font-weight:645;
+}
+
+.sidebar{
+  color: aliceblue;
+}
+
+
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  padding: 10px;
+}
+
+.logo-icon{
+  width: 40px;
+  height:50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  background:rgba(28, 17, 41, 0) ;
+  user-select: none;
+}
+
+.logo-icon .lo{
+  height: 50px;
+  width: 85px;
+  user-select: none;
+}
+
+.menu-bar{
+  height:88vh;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 1rem;
+  position: relative;
+}
+
+.toggle-theme-btn{
+       position: relative;
+       border: none;
+       
+}
+
+.toggle-theme-btn button{
+  padding: 10px;
+}
+
+.highlight-row {
+  background-color: #fff1f0; /* Light red background for unacknowledged alerts */
+}
+
+
+:where(.css-dev-only-do-not-override-ccdg5a).ant-slider .ant-slider-rail{
+  position: absolute;
+  background-color: rgba(37, 74, 197, 0.927);
+  border-radius: 2px;
+  transition: background-color 0.2s;
+}
+
+
+.dark-mode .ant-layout.css-dev-only-do-not-override-ccdg5a {
+  background-color: #0f1026; /* Dark mode color */
+}
+
+.light-mode .ant-layout.css-dev-only-do-not-override-ccdg5a {
+  background-color: #f5f5f5; /* Dark mode color */
+}
+
+
+:where(.css-dev-only-do-not-override-ccdg5a).ant-pagination .ant-pagination-disabled .ant-pagination-item-link, :where(.css-dev-only-do-not-override-ccdg5a).ant-pagination .ant-pagination-disabled:hover .ant-pagination-item-link {
+  color: #003cff;
+  cursor: not-allowed;
+}
+
+
+
+:where(.css-dev-only-do-not-override-ccdg5a).ant-menu-vertical >.ant-menu-item{
+  height: 40px;
+  line-height: 33px;
+}
+
+
+
+
+
+
+
+
+
+
+::-webkit-scrollbar{
+  width: 7px;
+
+}
+
+::-webkit-scrollbar-track{
+  background:#000 ;
+
+}
+
+::-webkit-scrollbar-thumb{
+  background: #888;
+  
+}
+
+::-webkit-scrollbar{
+  background: #555;
+  display: none;
+}
+
